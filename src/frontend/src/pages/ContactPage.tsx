@@ -35,14 +35,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "+1 (555) 012-3456",
-    sub: "Mon–Fri, 9am–6pm PST",
+    value: "+91 98765 43210",
+    sub: "Mon–Fri, 9am–6pm IST",
   },
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "450 Market St, Suite 8",
-    sub: "San Francisco, CA 94102",
+    value: "Malviya Nagar, Jaipur",
+    sub: "Rajasthan, India 302017",
   },
 ];
 

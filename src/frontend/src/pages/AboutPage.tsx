@@ -13,10 +13,10 @@ import { motion } from "motion/react";
 
 const team = [
   {
-    name: "Dr. Sarah Chen",
-    role: "Founder & CEO",
-    avatar: "SC",
-    bio: "Former Stanford professor with 15 years of experience in education technology. Sarah believes every person deserves access to world-class learning.",
+    name: "Mohit Jangid",
+    role: "Founder & Owner",
+    avatar: "MJ",
+    bio: "Passionate educator and entrepreneur with a vision to make quality education accessible to everyone. Mohit founded EduSite to empower learners worldwide.",
     color: "bg-violet-100 text-violet-700",
   },
   {

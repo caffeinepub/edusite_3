@@ -45,11 +45,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-accent" />
-                <span>+1 (555) 012-3456</span>
+                <span>+91 98765 43210</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-accent" />
-                <span>San Francisco, CA 94102</span>
+                <span>Jaipur, Rajasthan, India</span>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export function Footer() {
 
         {/* Divider */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/40">
-          <span>© {year} EduSite. All rights reserved.</span>
+          <span>© {year} EduSite by Mohit Jangid. All rights reserved.</span>
           <span>
             Built with ♥ using{" "}
             <a
