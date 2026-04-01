@@ -92,6 +92,30 @@ actor {
         difficulty = "Intermediate";
         category = "Arts";
       },
+      {
+        id = 7;
+        title = "Indian History";
+        description = "A comprehensive study of India's rich history — from the Indus Valley Civilization and Vedic period, through the Mughal Empire and colonial era, to Independence and modern India.";
+        duration = "25 hours";
+        difficulty = "Intermediate";
+        category = "India Studies";
+      },
+      {
+        id = 8;
+        title = "Indian Economy";
+        description = "Understand India's economic journey — from the post-independence planned economy and liberalization of 1991, to today's GDP growth, agriculture, industry, and emerging sectors.";
+        duration = "20 hours";
+        difficulty = "Intermediate";
+        category = "India Studies";
+      },
+      {
+        id = 9;
+        title = "Indian Geography";
+        description = "Explore India's diverse physical landscape — the Himalayas, Indo-Gangetic Plain, Deccan Plateau, river systems, climate zones, natural resources, and regional geography.";
+        duration = "18 hours";
+        difficulty = "Beginner";
+        category = "India Studies";
+      },
     ];
     for (course in sampleCourses.values()) {
       courses.add(course.id, course);

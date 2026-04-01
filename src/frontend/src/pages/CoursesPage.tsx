@@ -12,12 +12,13 @@ import { useMemo, useState } from "react";
 const DIFFICULTIES = ["All", "Beginner", "Intermediate", "Advanced"];
 const CATEGORIES = [
   "All",
-  "Web Development",
-  "Data Science",
-  "UI/UX Design",
-  "Mobile Development",
-  "Cloud Computing",
-  "Cybersecurity",
+  "Math",
+  "Science",
+  "Programming",
+  "History",
+  "English",
+  "Arts",
+  "India Studies",
 ];
 
 export function CoursesPage() {

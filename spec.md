@@ -1,21 +1,23 @@
 # EduSite
 
 ## Current State
-A full-stack education website with Home, Courses, Course Detail, About, and Contact pages. Contact info currently shows US-based address, phone, and email (San Francisco, +1 number).
+Education website with courses stored in the Motoko backend. Has 6 sample courses (Math, Science, Programming, History, English, Arts). Frontend has category filters.
 
 ## Requested Changes (Diff)
 
 ### Add
-- Nothing new to add.
+- Indian History course (category: India Studies)
+- Indian Economy course (category: India Studies)
+- Indian Geography course (category: India Studies)
+- "India Studies" category to the frontend filter list
 
 ### Modify
-- Update contact address to India location in Footer.tsx and ContactPage.tsx.
-- Update phone number to an India-format number.
-- Update address line to an India city/address.
+- Backend `initializeCourses` to include 3 new Indian courses (ids 7, 8, 9)
+- Frontend CATEGORIES array to include "India Studies"
 
 ### Remove
-- US address and phone number references.
+Nothing removed
 
 ## Implementation Plan
-1. Update Footer.tsx: change phone to Indian format, address to India.
-2. Update ContactPage.tsx: change contactInfo array phone and address values to India.
+1. Add 3 new courses to the backend initializeCourses function
+2. Add "India Studies" to the CATEGORIES filter in CoursesPage.tsx
